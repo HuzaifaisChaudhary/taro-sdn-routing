@@ -1,0 +1,15 @@
+{
+  "topologies": {
+    "NSFNET": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/nsfnet.json",
+    "GEANT": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/geant.json",
+    "AT&T": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/atandt.json",
+    "GTS": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/gts.json"
+  },
+  "traffic": {
+    "NSFNET": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/nsfnet_traffic.npy",
+    "GEANT": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/geant_traffic.npy",
+    "AT&T": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/atandt_traffic.npy",
+    "GTS": "/tmp/claude-0/-home-claude/5faf72e8-2ad6-5357-8ba4-26e59c8772d7/scratchpad/TARO/results/topologies/gts_traffic.npy"
+  },
+  "note": "Replace generated topology placeholders with licensed Topology Zoo files for final publication."
+}

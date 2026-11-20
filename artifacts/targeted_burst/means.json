@@ -1,0 +1,23 @@
+{
+  "delivery_fraction": {
+    "taro-stable": 0.23059035733100783,
+    "taro-heuristic": 0.23080541525947867,
+    "ecmp": 0.21404485589933714,
+    "ospf-style": 0.22865279439895594,
+    "load-aware": 0.20184457826324498
+  },
+  "mean_delay": {
+    "taro-stable": 9.076267538598568,
+    "taro-heuristic": 9.08515962072874,
+    "ecmp": 8.803180676374094,
+    "ospf-style": 8.932072407793791,
+    "load-aware": 8.474039849528234
+  },
+  "changed_entries": {
+    "taro-stable": 14.0,
+    "taro-heuristic": 287.0,
+    "ecmp": 0.0,
+    "ospf-style": 12.0,
+    "load-aware": 92.0
+  }
+}

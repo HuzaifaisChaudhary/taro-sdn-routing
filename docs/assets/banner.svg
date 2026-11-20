@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="TARO: Topology-Aware, Overhead-Aware Routing for Software-Defined Networks">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1424"/>
+      <stop offset="1" stop-color="#132a46"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#2a78d6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2a78d6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#grid)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#glow)"/>
+
+  <!-- network: plain links -->
+  <g stroke="#8aa4c4" stroke-opacity="0.35" stroke-width="2" fill="none">
+    <line x1="760" y1="90" x2="880" y2="60"/>
+    <line x1="880" y1="60" x2="1010" y2="95"/>
+    <line x1="1010" y1="95" x2="1150" y2="70"/>
+    <line x1="760" y1="90" x2="820" y2="200"/>
+    <line x1="820" y1="200" x2="760" y2="280"/>
+    <line x1="1010" y1="95" x2="1100" y2="190"/>
+    <line x1="1150" y1="70" x2="1100" y2="190"/>
+    <line x1="1100" y1="190" x2="1180" y2="270"/>
+    <line x1="960" y1="285" x2="1180" y2="270"/>
+    <line x1="760" y1="280" x2="960" y2="285"/>
+    <line x1="880" y1="60" x2="940" y2="180"/>
+  </g>
+  <!-- traffic split from the source (left) to the destination (right) over two paths -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M820 200 L940 180 L1100 190" stroke="#2a78d6" stroke-width="7"/>
+    <path d="M820 200 L960 285 L1100 190" stroke="#eb6834" stroke-width="4"/>
+    <path d="M820 200 L940 180 L1100 190" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="2 14">
+      <animate attributeName="stroke-dashoffset" from="64" to="0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M820 200 L960 285 L1100 190" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="2 14">
+      <animate attributeName="stroke-dashoffset" from="64" to="0" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <!-- nodes -->
+  <g fill="#0b1424" stroke="#c9d6e8" stroke-width="2.5">
+    <circle cx="760" cy="90" r="11"/><circle cx="880" cy="60" r="11"/><circle cx="1010" cy="95" r="11"/>
+    <circle cx="1150" cy="70" r="11"/><circle cx="940" cy="180" r="11"/><circle cx="760" cy="280" r="11"/>
+    <circle cx="960" cy="285" r="11"/><circle cx="1180" cy="270" r="11"/>
+  </g>
+  <circle cx="820" cy="200" r="15" fill="#2a78d6" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="1100" cy="190" r="15" fill="#1baf7a" stroke="#ffffff" stroke-width="3"/>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#c9d6e8">
+    <text x="905" y="160">70%</text>
+    <text x="870" y="268">30%</text>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="132" font-size="96" font-weight="700" fill="#ffffff" letter-spacing="4">TARO</text>
+    <text x="68" y="180" font-size="27" font-weight="600" fill="#9cc3f5">Topology-Aware, Overhead-Aware Routing for SDN</text>
+    <text x="68" y="226" font-size="20" fill="#c9d6e8">Splits traffic across paths by capacity, delay and load,</text>
+    <text x="68" y="254" font-size="20" fill="#c9d6e8">and only rewrites a forwarding rule when the change is worth it.</text>
+    <text x="68" y="302" font-size="15" fill="#7f93ad" letter-spacing="1">COMPUTER NETWORKS RESEARCH PROJECT  ·  FAST-NUCES ISLAMABAD</text>
+  </g>
+</svg>

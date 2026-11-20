@@ -1,0 +1,7 @@
+# Core dependencies: enough to run the tests and reproduce every result in the paper.
+# Tested with Python 3.13, NumPy 2.5.3, SciPy 1.18.1, NetworkX 3.7, pandas 3.0.5, Matplotlib 3.11.2.
+numpy>=1.24
+scipy>=1.10
+networkx>=3.0
+pandas>=2.0
+matplotlib>=3.7

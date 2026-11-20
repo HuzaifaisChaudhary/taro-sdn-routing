@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+# outputs of the CLI commands in taro/cli.py (not used by the paper)
+artifacts/*
+!artifacts/targeted_burst/
+results/log_*.txt
+results/*.done
